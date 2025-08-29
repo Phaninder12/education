@@ -1,0 +1,58 @@
+{%extends "educationapp/home.html"%}
+{%load static%}
+{% block head %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+{% endblock %}
+{%block body_block%}
+
+<h1>Class IX:</h1>
+<div class="content-container">
+  <div class="text">
+    <p>
+      Learn Infotech is a Realtime Training Company offering Courses on varied IT Technologies like Fullstack Development,
+      Python, React JS, Node JS, Web Design & PHP with MySQL, Digital Marketing, Java, UI/UX Designing & Development.
+    </p>
+  </div>
+  <div class="image">
+    <img src="{% static 'images/download.jpg' %}" alt="Placement Image">
+  </div>
+</div>
+
+	
+
+<h2>Classroom:</h2>
+<div class="gallery">
+	<div>
+		<img src="{%static 'images/download.jpg'%}" >
+	</div>
+
+<div>
+		<img src="{%static 'images/download.jpg'%}" >
+	</div>
+	<div>
+		<img src="{%static 'images/download.jpg'%}" >
+	</div>
+	<div>
+		<img src="{%static 'images/download.jpg'%}" >
+	</div>
+	<div>
+		<img src="{%static 'images/download.jpg'%}" >
+	</div>
+	<div>
+		<img src="{%static 'images/download.jpg'%}" >
+	</div>
+	<div>
+		<img src="{%static 'images/download.jpg'%}" >
+	</div>
+	<div>
+		<img src="{%static 'images/download.jpg'%}" >
+	</div>
+</div>
+<div class="jb1">
+  <h1>Still hunting for a job?</h1>
+  <p>ELearn Infotech is a Realtime Training Company offering Courses on varied IT Technologies like 
+    Fullstack Development, Python, React JS, Node JS, Web Design & PHP with MySQL, Digital Marketing</p>
+  <button class="register-btn">Register</button>
+</div>
+
+{%endblock%}

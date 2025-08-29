@@ -1,0 +1,14 @@
+{%extends "educationapp/home.html"%}
+{%load static%}
+{% block head %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+{% endblock %}
+{%block body_block%}
+<form method="POST">
+		{{f.as_p}}
+		{%csrf_token%}
+		<button>Submit</button>
+
+	</form>
+
+{%endblock%}

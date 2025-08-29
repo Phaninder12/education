@@ -1,0 +1,30 @@
+{%extends "educationapp/home.html"%}
+{%load static%}
+{% block head %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+{% endblock %}
+{%block body_block%}
+<div class="contact-container">
+  <div class="info">
+  <p class="label">Address</p>
+  <p>
+    Plot no.40, Second Floor, Vittal Rao Nagar,<br>
+    Madhapur, Telangana 500081
+  </p>
+  <p class="contact-details">
+    <strong>+91 8464025086</strong><br>
+    <strong>info@elearninfotech.com</strong>
+  </p>
+</div>
+
+  <div class="contact-form">
+    <form method="POST">
+      {% csrf_token %}
+      {{ d.as_p }}
+      <button type="submit">SUBMIT</button>
+    </form>
+  </div>
+</div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.325578214134!2d78.38214187412522!3d17.444124301170252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91ed2dea4c17%3A0xd49a55db035ba737!2sElearn%20Infotech%20-%20MERN%20Java%20Python%20Fullstack%20%7C%20UI%20Development%20React%20JS%20%7C%20PHP%20Web%20Development%20UI%20UX%20Courses%20Training%20Hyderabad!5e0!3m2!1sen!2sin!4v1744953725064!5m2!1sen!2sin" width="1200" height="900" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+{%endblock%}

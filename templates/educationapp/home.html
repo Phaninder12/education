@@ -1,0 +1,154 @@
+{%load static%}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" type="text/css"href="{%static 'css/style.css'%}"/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg bg-body-tertiary ">
+  <div class="container-fluid phaninav">
+
+    <img src="{%static 'images/download.jpg'%}" class='rank'>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/home"><strong><p class="aku">HOME</p></strong></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about"><strong><p class="aku">ABOUT US</p></strong></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <strong><p class="aku">CLASSES</p></strong>
+          </a>
+
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/classX"><strong><p class="scroll">Class X</p></strong></a></li>
+            <li><a class="dropdown-item" href="/classIX"><strong><p class="scroll">Class IX</p></strong></a></li>
+            <li><a class="dropdown-item" href="/classVIII"><strong><p class="scroll">Class VIII</p></strong></a></li>
+          </ul>
+        </li>
+         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <strong><p class="aku">GALLERY</p></strong>
+          </a>
+
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/Photos"><strong><p class="scroll">Photos</p></strong></a></li>
+            <li><a class="dropdown-item" href="/Videos"><strong><p class="scroll">Videos</p></strong></a></li>
+            </ul>
+        </li>
+       <li class="nav-item">
+          <a class="nav-link" href="/ParentReg"><strong><p class="aku">PARENT REG</p></strong></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/LatestNews"><strong><p class="aku">LATEST NEWS</p></strong></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact"><strong><p class="aku">CONTACT</p></strong></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/adminpage"><strong><p class="aku">ADMIN PAGE</p></strong></a>
+        </li>
+        
+       
+      </ul>
+    </div>
+  </div>
+</nav>
+{%block body_block%}
+<div class="logo" >
+	<img src="{%static 'images/elearn.png'%}" >
+</div>
+
+<div class="welcome-section">
+
+	<marquee class='h'><h2>Admissions are open 2024|Admissions are open 2024......</h2></marquee>
+  
+  <h1>Welcome to ELearn Infotech</h1>
+  <p>
+    ELearn Infotech is a Professional Software Courses Training Company like Python, Fullstack development,
+    React Js, Node Js, UI Development, UI/UX Designing, Web designing, PHP with MySQL, Graphic Designing,
+    Cloud Modules, SAP Modules etc. We Provide Training for Design Unique websites & Develop Web Application,
+    Digital Marketing Solutions like SEO, SMM, PPC (Google Ads) and help businesses create their brand.
+    ELearn Infotech built a Relationship with students, who allows us to build up a tailored branding plan advance.
+    ELearn Infotech offers Excellent Software Courses with end to end support to the candidates.
+  </p>
+</div>
+
+		
+
+	<div class="Parent">
+	<div class="child1">
+	<img src="{%static 'images/download.jpg'%}" >
+	<h1 class='dh'>High Standards</h1>
+	<p>ELearn Infotech is a Professional Software Courses Training Company like Python, Fullstack development, React Js, Node Js, UI Development, UI/UX Designing, Web designing, PHP with MySQL, Graphic Designing, Cloud Modules, SAP Modules etc. We Provide Training for Design Unique websites & Develop Web Application, Digital Marketing Solutions like SEO, SMM, PPC (Google Ads) and help businesses create their brand. ELearn Infotech built a Relationship with students, who allows us to build up a tailored branding plan advance. ELearn Infotech offers Excellent Software Courses with end to end support to the candidates.</p>
+	<button >Register</button>
+	</div>
+
+	<div class="child1">
+	<img src="{%static 'images/download.jpg'%}" >
+	<h1 class='dh'>High Standards</h1>
+	<p>ELearn Infotech is a Professional Software Courses Training Company like Python, Fullstack development, React Js, Node Js, UI Development, UI/UX Designing, Web designing, PHP with MySQL, Graphic Designing, Cloud Modules, SAP Modules etc. We Provide Training for Design Unique websites & Develop Web Application, Digital Marketing Solutions like SEO, SMM, PPC (Google Ads) and help businesses create their brand. ELearn Infotech built a Relationship with students, who allows us to build up a tailored branding plan advance. ELearn Infotech offers Excellent Software Courses with end to end support to the candidates.</p>
+	<button >Register</button>
+	</div>
+
+	<div class="child1">
+	<img src="{%static 'images/download.jpg'%}" >
+	<h1 class='dh'>High Standards</h1>
+	<p>ELearn Infotech is a Professional Software Courses Training Company like Python, Fullstack development, React Js, Node Js, UI Development, UI/UX Designing, Web designing, PHP with MySQL, Graphic Designing, Cloud Modules, SAP Modules etc. We Provide Training for Design Unique websites & Develop Web Application, Digital Marketing Solutions like SEO, SMM, PPC (Google Ads) and help businesses create their brand. ELearn Infotech built a Relationship with students, who allows us to build up a tailored branding plan advance. ELearn Infotech offers Excellent Software Courses with end to end support to the candidates.</p>
+	<button >Register</button>
+
+	</div>
+
+	<div class="child1">
+	<img src="{%static 'images/download.jpg'%}">
+	<h1 class='dh'>High Standards</h1>
+	<p>ELearn Infotech is a Professional Software Courses Training Company like Python, Fullstack development, React Js, Node Js, UI Development, UI/UX Designing, Web designing, PHP with MySQL, Graphic Designing, Cloud Modules, SAP Modules etc. We Provide Training for Design Unique websites & Develop Web Application, Digital Marketing Solutions like SEO, SMM, PPC (Google Ads) and help businesses create their brand. ELearn Infotech built a Relationship with students, who allows us to build up a tailored branding plan advance. ELearn Infotech offers Excellent Software Courses with end to end support to the candidates.</p>
+	<button >Register</button>
+	</div>	
+	</div>
+
+<div>&nbsp;</div>
+
+	<div class="jb">
+		<center>
+		<h1>Still looking for course?</h1>
+		<p>    ELearn Infotech is a Realtime Training Company offering Courses on varied IT Technologies like 
+    Fullstack Development, Python, React JS, Node JS, Web Design & PHP with MySQL, Digital Marketing</p>
+ 
+  <button class="register-btn">Register</button>
+</center>
+</div>
+
+	
+
+
+
+
+	<div class="feedback-section">
+		
+			<h1>Parent Feedbacks.</h1>
+		
+
+<div class="feedback-videos">
+	<iframe width="300" height="250" src="https://www.youtube.com/embed/T46n2Bd3Jbs" title="Success story | Mr. Mukesh | Elearn Infotech | Best UI UX Design Training in Hyderabad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	<iframe width="300" height="250" src="https://www.youtube.com/embed/T46n2Bd3Jbs" title="Success story | Mr. Mukesh | Elearn Infotech | Best UI UX Design Training in Hyderabad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	<iframe width="300" height="250" src="https://www.youtube.com/embed/T46n2Bd3Jbs" title="Success story | Mr. Mukesh | Elearn Infotech | Best UI UX Design Training in Hyderabad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	<iframe width="300" height="250" src="https://www.youtube.com/embed/T46n2Bd3Jbs" title="Success story | Mr. Mukesh | Elearn Infotech | Best UI UX Design Training in Hyderabad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+</div>
+
+
+{%endblock%}
+
+</body>
+</html>
